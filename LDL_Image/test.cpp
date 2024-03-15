@@ -5,10 +5,10 @@ int main()
 {
 	LDL_ImageLoader imageLoader;
 
-	int width;
-	int heigth;
-	int bpp;
-	unsigned char* pixels;
+	int width  = 0;
+	int heigth = 0;
+	int bpp    = 0;
+	unsigned char* pixels = NULL;
 
 	if (imageLoader.Load("test.png"))
 	{

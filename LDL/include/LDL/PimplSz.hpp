@@ -36,7 +36,8 @@ public:
 	{
 		NumberToStringSize = 64,
 		ResultSize         = 128,
-		FpsCounterSize     = 64
+		FpsCounterSize     = 64,
+		SurfaceSize        = 2048
 	};
 };
 

@@ -35,11 +35,6 @@ class LDL_ResultImpl;
 class LDL_Result
 {
 public:
-	enum
-	{
-		Max = 64
-	};
-
 	LDL_Result();
 	void Clear();
 	bool Ok();

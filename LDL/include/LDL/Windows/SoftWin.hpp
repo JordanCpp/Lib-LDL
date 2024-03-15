@@ -33,7 +33,7 @@ DEALINGS IN THE SOFTWARE.
 class LDL_WindowSoftware
 {
 public:
-	LDL_WindowSoftware(LDL_Result* result, const LDL_Vec2i& pos, const LDL_Vec2i& size, const char* title, int mode = LDL_WindowMode::Resized);
+	LDL_WindowSoftware(LDL_Result* result, const LDL_Vec2i& pos, const LDL_Vec2i& size, const char* title, int mode = LDL_WindowMode::Fixed);
 	~LDL_WindowSoftware();
 	bool Running();
 	void Present();

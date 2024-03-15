@@ -32,13 +32,17 @@ DEALINGS IN THE SOFTWARE.
 class LDL_NumberToStringImpl
 {
 public:
+	enum
+	{
+		Max = 32
+	};
 	LDL_NumberToStringImpl();
 	const char* Convert(int num, uint8_t base = 10);
 	const char* Convert(size_t num);
 	void Swap(char& t1, char& t2);
 	void Reverse(char* str, size_t length);
 	int  _Result;
-	char _Buffer[32];
+	char _Buffer[Max];
 };
 
 #endif

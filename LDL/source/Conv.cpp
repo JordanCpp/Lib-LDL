@@ -53,7 +53,7 @@ const char* LDL_NumberToStringImpl::Convert(int num, uint8_t base)
 
 	while (num != 0)
 	{
-		int rem = num % base;
+		char rem = num % base;
 		_Buffer[i++] = (rem > 9) ? (rem - 10) + 'a' : rem + '0';
 		num = num / base;
 	}

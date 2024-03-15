@@ -32,7 +32,7 @@ DEALINGS IN THE SOFTWARE.
 class LDL_WindowOpenGL1
 {
 public:
-	LDL_WindowOpenGL1(LDL_Result* result, const LDL_Vec2i& pos, const LDL_Vec2i& size, const char* title, int mode = LDL_WindowMode::Resized);
+	LDL_WindowOpenGL1(LDL_Result* result, const LDL_Vec2i& pos, const LDL_Vec2i& size, const char* title, int mode = LDL_WindowMode::Fixed);
 	~LDL_WindowOpenGL1();
 	bool Running();
 	void Present();
