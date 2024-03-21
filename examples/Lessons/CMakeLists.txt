@@ -18,3 +18,5 @@ target_link_libraries(06Surf LDL)
 
 add_executable(07Move "07Move.cpp")
 target_link_libraries(07Move LDL)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/img24.bmp DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/)
